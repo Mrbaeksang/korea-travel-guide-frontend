@@ -1,0 +1,222 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "수정",
+    "confirm": "확인",
+    "close": "닫기",
+    "send": "전송",
+    "search": "검색",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "signup": "회원가입",
+    "profile": "프로필",
+    "settings": "설정",
+    "language": "언어"
+  },
+  "header": {
+    "title": "Korea Travel Guide",
+    "aiChat": "AI 여행 친구",
+    "chat": "채팅",
+    "findGuide": "가이드 찾기",
+    "myProfile": "프로필",
+    "traveler": "여행자",
+    "guide": "가이드"
+  },
+  "home": {
+    "hero": {
+      "title": "어디로 갈까 고민되나요?",
+      "subtitle": "AI가 지금 날씨 보고 딱 맞는 여행지 찾아드릴게요! 🌤️",
+      "startButton": "시작하기",
+      "aiChatButton": "AI한테 물어보기",
+      "findGuideButton": "가이드 찾기",
+      "myChatButton": "내 채팅",
+      "learnMore": "더 알아보기"
+    },
+    "officialData": {
+      "title": "믿을 수 있는 공식 정보",
+      "subtitle": "대한민국 정부 기관의 실시간 데이터를 사용합니다",
+      "kma": {
+        "name": "기상청",
+        "description": "실시간 날씨 정보"
+      },
+      "kto": {
+        "name": "한국 관광공사",
+        "description": "공식 관광지 정보"
+      }
+    },
+    "features": {
+      "title": "이런 걸 도와드려요",
+      "subtitle": "여행 준비부터 현지 정보까지, 다 물어보세요!",
+      "aiChatbot": {
+        "title": "오늘 날씨에 딱 맞는 여행지 🌤️",
+        "description": "지금 비 온다고요? AI가 실내 명소 바로 추천해드릴게요. 날씨 확인하고 딱 맞는 곳 찾아드려요!"
+      },
+      "localGuides": {
+        "title": "현지인만 아는 찐 맛집 🍜",
+        "description": "관광객 바가지 NO! 가이드가 직접 알려주는 로컬 맛집에서 진짜 한국을 경험하세요."
+      },
+      "realTimeChat": {
+        "title": "1:1 채팅으로 바로 연결 💬",
+        "description": "궁금한 거 생기면 가이드한테 바로 물어보세요. 현지에서 직접 답변 드려요!"
+      }
+    },
+    "cta": {
+      "title": "지금 바로 물어보세요! 💬",
+      "subtitle": "Google 계정으로 3초 만에 시작하고, AI가 바로 답해드려요",
+      "button": "Google로 시작하기"
+    }
+  },
+  "aiChat": {
+    "title": "AI 여행 친구",
+    "newSession": "+ 새 대화",
+    "creating": "대화방 만드는 중...",
+    "noSessions": "아직 대화가 없어요\n새 대화를 시작해보세요! 💬",
+    "selectSession": "대화를 선택해주세요",
+    "selectSessionDesc": "왼쪽에서 대화를 선택하거나 새로 시작하세요",
+    "inputPlaceholder": "궁금한 거 물어보세요...",
+    "startConversation": "뭐든지 물어보세요! 😊",
+    "deleteConfirm": "이 대화를 삭제할까요?",
+    "editTitle": "제목 수정",
+    "deleteSession": "세션 삭제",
+    "connected": "연결됨",
+    "connecting": "연결 중...",
+    "onboarding": {
+      "title": "안녕하세요! 👋",
+      "subtitle": "저는 한국 여행을 도와주는 AI 친구예요.\n실시간 날씨랑 관광 정보로 딱 맞는 여행지를 찾아드릴게요!",
+      "tryAsking": "이런 질문 어때요?",
+      "sampleQuestions": {
+        "weather": "이번 주말 서울 날씨 어때?",
+        "restaurant": "부산 해운대 근처 맛집 추천해줘",
+        "activity": "11월 제주도에서 뭐 하기 좋아?"
+      },
+      "startButton": "시작하기"
+    }
+  },
+  "guides": {
+    "title": "가이드 찾기",
+    "subtitle": "한국 여행을 도와줄 현지 가이드를 찾아보세요",
+    "searchPlaceholder": "가이드 이름, 지역, 소개로 검색...",
+    "startChat": "채팅 시작하기",
+    "creating": "채팅방 생성 중...",
+    "noResults": "검색 결과가 없습니다.",
+    "noGuides": "등록된 가이드가 없습니다.",
+    "loginRequired": "로그인이 필요합니다.",
+    "travelerOnly": "여행자만 가이드와 채팅을 시작할 수 있습니다.",
+    "chatCreated": "채팅방이 생성되었습니다.",
+    "chatCreationFailed": "채팅방 생성에 실패했습니다. 다시 시도해주세요.",
+    "accessDenied": {
+      "title": "접근 권한이 없습니다",
+      "description": "이 페이지는 여행자 전용입니다."
+    }
+  },
+  "profile": {
+    "title": "프로필",
+    "subtitle": "내 정보를 확인하고 수정할 수 있습니다",
+    "noName": "이름 없음",
+    "roleGuide": "가이드",
+    "roleGuest": "여행자",
+    "nickname": "닉네임",
+    "profileImage": "프로필 이미지 URL",
+    "profileImageDesc": "외부 이미지 URL만 사용 가능합니다",
+    "location": "활동 지역",
+    "locationPlaceholder": "SEOUL, BUSAN, JEJU 등",
+    "description": "소개",
+    "descriptionPlaceholder": "가이드 소개를 입력하세요",
+    "editProfile": "정보 수정",
+    "saving": "저장 중...",
+    "updated": "프로필이 업데이트되었습니다.",
+    "updateFailed": "프로필 업데이트에 실패했습니다.",
+    "myRatings": "내 평점",
+    "averageRating": "평균 평점",
+    "totalRatings": "총 평가 수",
+    "receivedRatings": "받은 평가",
+    "noRatings": "아직 받은 평가가 없습니다.",
+    "deleteAccount": {
+      "title": "회원 탈퇴",
+      "warning": "회원 탈퇴 시 모든 데이터가 삭제되며 복구할 수 없습니다.",
+      "button": "회원 탈퇴",
+      "confirmTitle": "정말로 탈퇴하시겠습니까?",
+      "processing": "처리 중...",
+      "success": "회원 탈퇴가 완료되었습니다.",
+      "failed": "회원 탈퇴에 실패했습니다."
+    }
+  },
+  "login": {
+    "title": "Korea Travel Guide",
+    "subtitle": "AI 챗봇과 현지 가이드를 만나보세요",
+    "googleButton": "Google로 로그인",
+    "terms": "로그인하면 서비스 약관 및 개인정보 보호정책에 동의하게 됩니다."
+  },
+  "chat": {
+    "title": "채팅",
+    "listTitle": "채팅 목록",
+    "listDescription": "여행자들과의 대화를 확인하세요",
+    "noRooms": "채팅방이 없습니다",
+    "noRoomsDescription": "여행자가 채팅을 시작하면 여기에 표시됩니다",
+    "deleteConfirm": "\"{title}\" 채팅방을 삭제하시겠습니까?",
+    "deleteButton": "채팅방 삭제",
+    "lastUpdate": "마지막 업데이트",
+    "yesterday": "어제",
+    "daysAgo": "{days}일 전",
+    "loadingMore": "로딩 중...",
+    "loadMore": "더 보기",
+    "notFound": "채팅방을 찾을 수 없습니다",
+    "backToList": "채팅 목록으로 돌아가기",
+    "inputPlaceholder": "메시지를 입력하세요...",
+    "startConversation": "메시지를 입력하여 대화를 시작하세요",
+    "connected": "연결됨",
+    "connecting": "연결 중...",
+    "notConnected": "채팅 서버에 연결되지 않았습니다.",
+    "sendError": "메시지 전송에 실패했습니다.",
+    "connectionError": "채팅 연결 중 오류가 발생했습니다."
+  },
+  "auth": {
+    "callback": {
+      "processing": "로그인 처리 중...",
+      "error": "로그인 처리 중 오류가 발생했습니다. refreshToken 쿠키가 설정되지 않았거나 만료되었습니다.",
+      "redirecting": "로그인 페이지로 이동합니다..."
+    },
+    "role": {
+      "title": "역할 선택",
+      "subtitle": "서비스 이용을 위한 역할을 선택해주세요",
+      "invalidAccess": "잘못된 접근입니다.",
+      "processing": "처리 중...",
+      "continue": "계속하기",
+      "success": "회원가입이 완료되었습니다!",
+      "error": "역할 선택 중 오류가 발생했습니다.",
+      "traveler": {
+        "title": "여행자",
+        "description": "한국 여행을 계획하고 있어요",
+        "feature1": "AI 챗봇과 대화하기",
+        "feature2": "가이드와 채팅하기",
+        "feature3": "여행 후기 작성하기"
+      },
+      "guide": {
+        "title": "가이드",
+        "description": "외국인 관광객을 도와주고 싶어요",
+        "feature1": "게스트와 채팅하기",
+        "feature2": "관광 정보 제공하기",
+        "feature3": "평가 받기"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "소개",
+      "description": "한국 여행을 계획하는 외국인과 현지 가이드를 연결하는 플랫폼입니다."
+    },
+    "links": {
+      "title": "바로가기",
+      "aiChat": "AI 챗봇",
+      "findGuide": "가이드 찾기"
+    },
+    "contact": {
+      "title": "문의",
+      "email": "qortkdgus95@gmail.com"
+    },
+    "copyright": "© {year} Korea Travel Guide. All rights reserved."
+  }
+}

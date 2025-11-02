@@ -1,0 +1,222 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "send": "Send",
+    "search": "Search",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up",
+    "profile": "Profile",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "header": {
+    "title": "Korea Travel Guide",
+    "aiChat": "AI Travel Buddy",
+    "chat": "Chat",
+    "findGuide": "Find Guide",
+    "myProfile": "Profile",
+    "traveler": "Traveler",
+    "guide": "Guide"
+  },
+  "home": {
+    "hero": {
+      "title": "Where to go in Korea?",
+      "subtitle": "AI finds the perfect spot for you based on real-time weather! 🌤️",
+      "startButton": "Get Started",
+      "aiChatButton": "Ask AI",
+      "findGuideButton": "Find Guide",
+      "myChatButton": "My Chats",
+      "learnMore": "Learn More"
+    },
+    "officialData": {
+      "title": "Reliable Official Information",
+      "subtitle": "Powered by real-time data from Korean government agencies",
+      "kma": {
+        "name": "Korea Meteorological Administration",
+        "description": "Real-time weather data"
+      },
+      "kto": {
+        "name": "Korea Tourism Organization",
+        "description": "Official tourism information"
+      }
+    },
+    "features": {
+      "title": "What We Help With",
+      "subtitle": "From planning to local tips, just ask!",
+      "aiChatbot": {
+        "title": "Perfect Spots for Today's Weather 🌤️",
+        "description": "Raining now? AI recommends indoor attractions right away. We check the weather and find the best place for you!"
+      },
+      "localGuides": {
+        "title": "Hidden Gems Only Locals Know 🍜",
+        "description": "No tourist traps! Get authentic local restaurant recommendations directly from our guides."
+      },
+      "realTimeChat": {
+        "title": "Direct 1:1 Connection 💬",
+        "description": "Got questions? Ask your guide directly. Real answers from real locals!"
+      }
+    },
+    "cta": {
+      "title": "Ask Anything Now! 💬",
+      "subtitle": "Start in 3 seconds with Google and get instant AI answers",
+      "button": "Start with Google"
+    }
+  },
+  "aiChat": {
+    "title": "AI Travel Buddy",
+    "newSession": "+ New Chat",
+    "creating": "Creating chat...",
+    "noSessions": "No chats yet\nStart a new conversation! 💬",
+    "selectSession": "Select a chat",
+    "selectSessionDesc": "Choose a chat from the left or start a new one",
+    "inputPlaceholder": "Ask me anything...",
+    "startConversation": "Ask me anything! 😊",
+    "deleteConfirm": "Delete this chat?",
+    "editTitle": "Edit title",
+    "deleteSession": "Delete session",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "onboarding": {
+      "title": "Hello! 👋",
+      "subtitle": "I'm your AI travel buddy for Korea.\nI'll find the perfect spots for you using real-time weather and tourist info!",
+      "tryAsking": "Try asking:",
+      "sampleQuestions": {
+        "weather": "How's the weather in Seoul this weekend?",
+        "restaurant": "Recommend restaurants near Haeundae Beach",
+        "activity": "What's good to do in Jeju in November?"
+      },
+      "startButton": "Get Started"
+    }
+  },
+  "guides": {
+    "title": "Find a Guide",
+    "subtitle": "Discover local guides to help you explore Korea",
+    "searchPlaceholder": "Search by name, location, or description...",
+    "startChat": "Start Chat",
+    "creating": "Creating chat room...",
+    "noResults": "No results found.",
+    "noGuides": "No guides available.",
+    "loginRequired": "Please log in first.",
+    "travelerOnly": "Only travelers can start chats with guides.",
+    "chatCreated": "Chat room created.",
+    "chatCreationFailed": "Failed to create chat room. Please try again.",
+    "accessDenied": {
+      "title": "Access Denied",
+      "description": "This page is for travelers only."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "View and edit your information",
+    "noName": "No name",
+    "roleGuide": "Guide",
+    "roleGuest": "Traveler",
+    "nickname": "Nickname",
+    "profileImage": "Profile Image URL",
+    "profileImageDesc": "Only external image URLs are supported",
+    "location": "Active Region",
+    "locationPlaceholder": "SEOUL, BUSAN, JEJU, etc.",
+    "description": "Introduction",
+    "descriptionPlaceholder": "Enter your guide introduction",
+    "editProfile": "Edit Profile",
+    "saving": "Saving...",
+    "updated": "Profile updated successfully.",
+    "updateFailed": "Failed to update profile.",
+    "myRatings": "My Ratings",
+    "averageRating": "Average Rating",
+    "totalRatings": "Total Ratings",
+    "receivedRatings": "Received Ratings",
+    "noRatings": "No ratings received yet.",
+    "deleteAccount": {
+      "title": "Delete Account",
+      "warning": "All data will be permanently deleted and cannot be recovered.",
+      "button": "Delete Account",
+      "confirmTitle": "Are you sure you want to delete your account?",
+      "processing": "Processing...",
+      "success": "Account deleted successfully.",
+      "failed": "Failed to delete account."
+    }
+  },
+  "login": {
+    "title": "Korea Travel Guide",
+    "subtitle": "Connect with AI chatbot and local guides",
+    "googleButton": "Sign in with Google",
+    "terms": "By signing in, you agree to our Terms of Service and Privacy Policy."
+  },
+  "chat": {
+    "title": "Chat",
+    "listTitle": "Chat List",
+    "listDescription": "View your conversations with travelers",
+    "noRooms": "No chat rooms",
+    "noRoomsDescription": "Chat rooms will appear here when travelers start a conversation",
+    "deleteConfirm": "Delete chat room \"{title}\"?",
+    "deleteButton": "Delete chat room",
+    "lastUpdate": "Last update",
+    "yesterday": "Yesterday",
+    "daysAgo": "{days} days ago",
+    "loadingMore": "Loading...",
+    "loadMore": "Load More",
+    "notFound": "Chat room not found",
+    "backToList": "Back to chat list",
+    "inputPlaceholder": "Type your message...",
+    "startConversation": "Start a conversation by typing a message",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "notConnected": "Not connected to chat server.",
+    "sendError": "Failed to send message.",
+    "connectionError": "Error connecting to chat."
+  },
+  "auth": {
+    "callback": {
+      "processing": "Processing login...",
+      "error": "An error occurred during login. The refreshToken cookie is not set or has expired.",
+      "redirecting": "Redirecting to login page..."
+    },
+    "role": {
+      "title": "Select Role",
+      "subtitle": "Choose your role to use our service",
+      "invalidAccess": "Invalid access.",
+      "processing": "Processing...",
+      "continue": "Continue",
+      "success": "Registration completed!",
+      "error": "An error occurred during role selection.",
+      "traveler": {
+        "title": "Traveler",
+        "description": "I'm planning a trip to Korea",
+        "feature1": "Chat with AI chatbot",
+        "feature2": "Chat with guides",
+        "feature3": "Write travel reviews"
+      },
+      "guide": {
+        "title": "Guide",
+        "description": "I want to help foreign tourists",
+        "feature1": "Chat with guests",
+        "feature2": "Provide tourist information",
+        "feature3": "Receive ratings"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About",
+      "description": "A platform connecting foreigners planning to travel to Korea with local guides."
+    },
+    "links": {
+      "title": "Quick Links",
+      "aiChat": "AI Chatbot",
+      "findGuide": "Find Guide"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "qortkdgus95@gmail.com"
+    },
+    "copyright": "© {year} Korea Travel Guide. All rights reserved."
+  }
+}

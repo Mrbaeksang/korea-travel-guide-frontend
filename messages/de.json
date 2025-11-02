@@ -1,0 +1,222 @@
+{
+  "common": {
+    "loading": "Lädt...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "send": "Senden",
+    "search": "Suchen",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "language": "Sprache"
+  },
+  "header": {
+    "title": "Korea Travel Guide",
+    "aiChat": "KI-Reisebegleiter",
+    "chat": "Chat",
+    "findGuide": "Reiseführer finden",
+    "myProfile": "Profil",
+    "traveler": "Reisender",
+    "guide": "Reiseführer"
+  },
+  "home": {
+    "hero": {
+      "title": "Wohin soll es gehen?",
+      "subtitle": "Die KI findet das perfekte Reiseziel basierend auf dem aktuellen Wetter! 🌤️",
+      "startButton": "Loslegen",
+      "aiChatButton": "KI fragen",
+      "findGuideButton": "Reiseführer finden",
+      "myChatButton": "Meine Chats",
+      "learnMore": "Mehr erfahren"
+    },
+    "officialData": {
+      "title": "Verlässliche offizielle Informationen",
+      "subtitle": "Wir verwenden Echtzeitdaten koreanischer Regierungsbehörden",
+      "kma": {
+        "name": "Koreanischer Wetterdienst",
+        "description": "Echtzeit-Wetterinformationen"
+      },
+      "kto": {
+        "name": "Korea Tourism Organization",
+        "description": "Offizielle Tourismusinformationen"
+      }
+    },
+    "features": {
+      "title": "So können wir Ihnen helfen",
+      "subtitle": "Von der Reisevorbereitung bis zu lokalen Informationen - fragen Sie uns alles!",
+      "aiChatbot": {
+        "title": "Perfektes Reiseziel für das heutige Wetter 🌤️",
+        "description": "Regnet es gerade? Die KI empfiehlt Ihnen sofort Indoor-Sehenswürdigkeiten. Wetter checken und den perfekten Ort finden!"
+      },
+      "localGuides": {
+        "title": "Echte Restaurants, die nur Einheimische kennen 🍜",
+        "description": "Keine Touristenfallen! Erleben Sie das echte Korea in lokalen Restaurants, die direkt von Reiseführern empfohlen werden."
+      },
+      "realTimeChat": {
+        "title": "Direkte Verbindung per 1:1 Chat 💬",
+        "description": "Haben Sie Fragen? Fragen Sie direkt den Reiseführer. Wir antworten vor Ort!"
+      }
+    },
+    "cta": {
+      "title": "Jetzt fragen! 💬",
+      "subtitle": "In 3 Sekunden mit Google-Konto starten und die KI antwortet sofort",
+      "button": "Mit Google starten"
+    }
+  },
+  "aiChat": {
+    "title": "KI-Reisebegleiter",
+    "newSession": "+ Neues Gespräch",
+    "creating": "Erstelle Chatroom...",
+    "noSessions": "Noch keine Gespräche\nStarten Sie ein neues Gespräch! 💬",
+    "selectSession": "Bitte wählen Sie ein Gespräch",
+    "selectSessionDesc": "Wählen Sie links ein Gespräch oder starten Sie ein neues",
+    "inputPlaceholder": "Fragen Sie mich etwas...",
+    "startConversation": "Fragen Sie mich alles! 😊",
+    "deleteConfirm": "Möchten Sie dieses Gespräch löschen?",
+    "editTitle": "Titel bearbeiten",
+    "deleteSession": "Sitzung löschen",
+    "connected": "Verbunden",
+    "connecting": "Verbinde...",
+    "onboarding": {
+      "title": "Hallo! 👋",
+      "subtitle": "Ich bin Ihr KI-Begleiter für Reisen in Korea.\nIch finde das perfekte Reiseziel für Sie mit Echtzeit-Wetter und Tourismusinformationen!",
+      "tryAsking": "Wie wäre es mit diesen Fragen?",
+      "sampleQuestions": {
+        "weather": "Wie ist das Wetter in Seoul an diesem Wochenende?",
+        "restaurant": "Empfehlen Sie Restaurants in der Nähe von Haeundae Beach",
+        "activity": "Was kann man im November auf Jeju machen?"
+      },
+      "startButton": "Loslegen"
+    }
+  },
+  "guides": {
+    "title": "Reiseführer finden",
+    "subtitle": "Finden Sie einen lokalen Reiseführer für Ihre Korea-Reise",
+    "searchPlaceholder": "Nach Name, Region, Beschreibung suchen...",
+    "startChat": "Chat starten",
+    "creating": "Erstelle Chatroom...",
+    "noResults": "Keine Suchergebnisse.",
+    "noGuides": "Keine registrierten Reiseführer.",
+    "loginRequired": "Anmeldung erforderlich.",
+    "travelerOnly": "Nur Reisende können Chats mit Reiseführern starten.",
+    "chatCreated": "Chatroom erstellt.",
+    "chatCreationFailed": "Chatroom-Erstellung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "accessDenied": {
+      "title": "Zugriff verweigert",
+      "description": "Diese Seite ist nur für Reisende."
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "subtitle": "Sehen und bearbeiten Sie Ihre Informationen",
+    "noName": "Kein Name",
+    "roleGuide": "Reiseführer",
+    "roleGuest": "Reisender",
+    "nickname": "Spitzname",
+    "profileImage": "Profilbild-URL",
+    "profileImageDesc": "Nur externe Bild-URLs werden unterstützt",
+    "location": "Aktivitätsregion",
+    "locationPlaceholder": "SEOUL, BUSAN, JEJU usw.",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Geben Sie Ihre Reiseführer-Beschreibung ein",
+    "editProfile": "Informationen bearbeiten",
+    "saving": "Speichert...",
+    "updated": "Profil aktualisiert.",
+    "updateFailed": "Profil-Aktualisierung fehlgeschlagen.",
+    "myRatings": "Meine Bewertungen",
+    "averageRating": "Durchschnittsbewertung",
+    "totalRatings": "Gesamtzahl der Bewertungen",
+    "receivedRatings": "Erhaltene Bewertungen",
+    "noRatings": "Noch keine Bewertungen erhalten.",
+    "deleteAccount": {
+      "title": "Konto löschen",
+      "warning": "Beim Löschen des Kontos werden alle Daten gelöscht und können nicht wiederhergestellt werden.",
+      "button": "Konto löschen",
+      "confirmTitle": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
+      "processing": "Wird verarbeitet...",
+      "success": "Konto gelöscht.",
+      "failed": "Konto-Löschung fehlgeschlagen."
+    }
+  },
+  "login": {
+    "title": "Korea Travel Guide",
+    "subtitle": "Verbinden Sie sich mit AI-Chatbot und lokalen Guides",
+    "googleButton": "Mit Google anmelden",
+    "terms": "Indem Sie sich anmelden, stimmen Sie unseren Nutzungsbedingungen und Datenschutzrichtlinien zu."
+  },
+  "chat": {
+    "title": "Chat",
+    "listTitle": "Chat-Liste",
+    "listDescription": "Sehen Sie Ihre Gespräche mit Reisenden",
+    "noRooms": "Keine Chatrooms",
+    "noRoomsDescription": "Chatrooms werden hier angezeigt, wenn Reisende ein Gespräch beginnen",
+    "deleteConfirm": "Chatroom \"{title}\" löschen?",
+    "deleteButton": "Chatroom löschen",
+    "lastUpdate": "Letztes Update",
+    "yesterday": "Gestern",
+    "daysAgo": "vor {days} Tagen",
+    "loadingMore": "Lädt...",
+    "loadMore": "Mehr laden",
+    "notFound": "Chatroom nicht gefunden",
+    "backToList": "Zurück zur Chat-Liste",
+    "inputPlaceholder": "Nachricht eingeben...",
+    "startConversation": "Nachricht eingeben, um Gespräch zu starten",
+    "connected": "Verbunden",
+    "connecting": "Verbinde...",
+    "notConnected": "Nicht mit Chat-Server verbunden.",
+    "sendError": "Nachricht senden fehlgeschlagen.",
+    "connectionError": "Chat-Verbindungsfehler."
+  },
+  "auth": {
+    "callback": {
+      "processing": "Anmeldung wird verarbeitet...",
+      "error": "Ein Fehler ist während der Anmeldung aufgetreten. Das refreshToken-Cookie ist nicht gesetzt oder abgelaufen.",
+      "redirecting": "Weiterleitung zur Anmeldeseite..."
+    },
+    "role": {
+      "title": "Rolle wählen",
+      "subtitle": "Wählen Sie Ihre Rolle zur Nutzung unseres Dienstes",
+      "invalidAccess": "Ungültiger Zugriff.",
+      "processing": "Wird verarbeitet...",
+      "continue": "Weiter",
+      "success": "Registrierung abgeschlossen!",
+      "error": "Ein Fehler ist während der Rollenauswahl aufgetreten.",
+      "traveler": {
+        "title": "Reisender",
+        "description": "Ich plane eine Reise nach Korea",
+        "feature1": "Mit AI-Chatbot chatten",
+        "feature2": "Mit Reiseführern chatten",
+        "feature3": "Reisebewertungen schreiben"
+      },
+      "guide": {
+        "title": "Reiseführer",
+        "description": "Ich möchte ausländischen Touristen helfen",
+        "feature1": "Mit Gästen chatten",
+        "feature2": "Touristeninformationen bereitstellen",
+        "feature3": "Bewertungen erhalten"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "Über uns",
+      "description": "Eine Plattform, die Ausländer, die eine Reise nach Korea planen, mit lokalen Reiseführern verbindet."
+    },
+    "links": {
+      "title": "Schnellzugriff",
+      "aiChat": "KI-Chatbot",
+      "findGuide": "Reiseführer finden"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "qortkdgus95@gmail.com"
+    },
+    "copyright": "© {year} Korea Travel Guide. Alle Rechte vorbehalten."
+  }
+}

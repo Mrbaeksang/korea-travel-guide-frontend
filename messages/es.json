@@ -1,0 +1,222 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "send": "Enviar",
+    "search": "Buscar",
+    "logout": "Cerrar sesión",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "language": "Idioma"
+  },
+  "header": {
+    "title": "Korea Travel Guide",
+    "aiChat": "Compañero de viaje IA",
+    "chat": "Chat",
+    "findGuide": "Buscar guía",
+    "myProfile": "Perfil",
+    "traveler": "Viajero",
+    "guide": "Guía"
+  },
+  "home": {
+    "hero": {
+      "title": "¿No sabes a dónde ir?",
+      "subtitle": "¡La IA encuentra el destino perfecto según el clima actual! 🌤️",
+      "startButton": "Comenzar",
+      "aiChatButton": "Preguntar a la IA",
+      "findGuideButton": "Buscar guía",
+      "myChatButton": "Mis chats",
+      "learnMore": "Saber más"
+    },
+    "officialData": {
+      "title": "Información oficial confiable",
+      "subtitle": "Utilizamos datos en tiempo real de agencias gubernamentales coreanas",
+      "kma": {
+        "name": "Administración Meteorológica de Corea",
+        "description": "Información meteorológica en tiempo real"
+      },
+      "kto": {
+        "name": "Organización de Turismo de Corea",
+        "description": "Información turística oficial"
+      }
+    },
+    "features": {
+      "title": "Así podemos ayudarte",
+      "subtitle": "¡Desde la preparación del viaje hasta la información local, pregúntanos todo!",
+      "aiChatbot": {
+        "title": "Destino perfecto para el clima de hoy 🌤️",
+        "description": "¿Está lloviendo ahora? La IA te recomendará inmediatamente lugares interiores. ¡Verifica el clima y encuentra el lugar perfecto!"
+      },
+      "localGuides": {
+        "title": "Restaurantes auténticos que solo los locales conocen 🍜",
+        "description": "¡Sin trampas turísticas! Experimenta la verdadera Corea en restaurantes locales recomendados directamente por guías."
+      },
+      "realTimeChat": {
+        "title": "Conexión directa por chat 1:1 💬",
+        "description": "¿Tienes preguntas? Pregunta directamente al guía. ¡Respondemos in situ!"
+      }
+    },
+    "cta": {
+      "title": "¡Pregúntanos ahora! 💬",
+      "subtitle": "Comienza en 3 segundos con tu cuenta de Google y la IA responde al instante",
+      "button": "Comenzar con Google"
+    }
+  },
+  "aiChat": {
+    "title": "Compañero de viaje IA",
+    "newSession": "+ Nueva conversación",
+    "creating": "Creando sala de chat...",
+    "noSessions": "Aún no hay conversaciones\n¡Comienza una nueva conversación! 💬",
+    "selectSession": "Por favor selecciona una conversación",
+    "selectSessionDesc": "Selecciona una conversación a la izquierda o comienza una nueva",
+    "inputPlaceholder": "Pregúntame cualquier cosa...",
+    "startConversation": "¡Pregúntame lo que sea! 😊",
+    "deleteConfirm": "¿Quieres eliminar esta conversación?",
+    "editTitle": "Editar título",
+    "deleteSession": "Eliminar sesión",
+    "connected": "Conectado",
+    "connecting": "Conectando...",
+    "onboarding": {
+      "title": "¡Hola! 👋",
+      "subtitle": "Soy tu compañero de IA para viajar por Corea.\n¡Encontraré el destino perfecto para ti con clima en tiempo real e información turística!",
+      "tryAsking": "¿Qué tal estas preguntas?",
+      "sampleQuestions": {
+        "weather": "¿Cómo está el clima en Seúl este fin de semana?",
+        "restaurant": "Recomienda restaurantes cerca de la playa de Haeundae",
+        "activity": "¿Qué hacer en Jeju en noviembre?"
+      },
+      "startButton": "Comenzar"
+    }
+  },
+  "guides": {
+    "title": "Buscar guía",
+    "subtitle": "Encuentra un guía local para ayudarte en tu viaje por Corea",
+    "searchPlaceholder": "Buscar por nombre, región, descripción...",
+    "startChat": "Iniciar chat",
+    "creating": "Creando sala de chat...",
+    "noResults": "No hay resultados de búsqueda.",
+    "noGuides": "No hay guías registrados.",
+    "loginRequired": "Se requiere inicio de sesión.",
+    "travelerOnly": "Solo los viajeros pueden iniciar chats con guías.",
+    "chatCreated": "Sala de chat creada.",
+    "chatCreationFailed": "Error al crear sala de chat. Por favor intenta de nuevo.",
+    "accessDenied": {
+      "title": "Acceso denegado",
+      "description": "Esta página es solo para viajeros."
+    }
+  },
+  "profile": {
+    "title": "Perfil",
+    "subtitle": "Ver y editar tu información",
+    "noName": "Sin nombre",
+    "roleGuide": "Guía",
+    "roleGuest": "Viajero",
+    "nickname": "Apodo",
+    "profileImage": "URL de imagen de perfil",
+    "profileImageDesc": "Solo se admiten URL de imágenes externas",
+    "location": "Región de actividad",
+    "locationPlaceholder": "SEOUL, BUSAN, JEJU, etc.",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingresa tu descripción de guía",
+    "editProfile": "Editar información",
+    "saving": "Guardando...",
+    "updated": "Perfil actualizado.",
+    "updateFailed": "Error al actualizar perfil.",
+    "myRatings": "Mis valoraciones",
+    "averageRating": "Valoración promedio",
+    "totalRatings": "Número total de valoraciones",
+    "receivedRatings": "Valoraciones recibidas",
+    "noRatings": "Aún no has recibido valoraciones.",
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "warning": "Al eliminar la cuenta, todos los datos se eliminarán y no se podrán recuperar.",
+      "button": "Eliminar cuenta",
+      "confirmTitle": "¿Estás seguro de que quieres eliminar tu cuenta?",
+      "processing": "Procesando...",
+      "success": "Cuenta eliminada.",
+      "failed": "Error al eliminar cuenta."
+    }
+  },
+  "login": {
+    "title": "Korea Travel Guide",
+    "subtitle": "Conéctate con chatbot de IA y guías locales",
+    "googleButton": "Iniciar sesión con Google",
+    "terms": "Al iniciar sesión, aceptas nuestros Términos de Servicio y Política de Privacidad."
+  },
+  "chat": {
+    "title": "Chat",
+    "listTitle": "Lista de chats",
+    "listDescription": "Ver tus conversaciones con viajeros",
+    "noRooms": "No hay salas de chat",
+    "noRoomsDescription": "Las salas de chat aparecerán aquí cuando los viajeros inicien una conversación",
+    "deleteConfirm": "¿Eliminar sala de chat \"{title}\"?",
+    "deleteButton": "Eliminar sala de chat",
+    "lastUpdate": "Última actualización",
+    "yesterday": "Ayer",
+    "daysAgo": "Hace {days} días",
+    "loadingMore": "Cargando...",
+    "loadMore": "Cargar más",
+    "notFound": "Sala de chat no encontrada",
+    "backToList": "Volver a la lista de chats",
+    "inputPlaceholder": "Escribe un mensaje...",
+    "startConversation": "Escribe un mensaje para iniciar la conversación",
+    "connected": "Conectado",
+    "connecting": "Conectando...",
+    "notConnected": "No conectado al servidor de chat.",
+    "sendError": "Error al enviar mensaje.",
+    "connectionError": "Error de conexión al chat."
+  },
+  "auth": {
+    "callback": {
+      "processing": "Procesando inicio de sesión...",
+      "error": "Ocurrió un error durante el inicio de sesión. La cookie refreshToken no está configurada o ha expirado.",
+      "redirecting": "Redirigiendo a la página de inicio de sesión..."
+    },
+    "role": {
+      "title": "Seleccionar rol",
+      "subtitle": "Elige tu rol para usar nuestro servicio",
+      "invalidAccess": "Acceso no válido.",
+      "processing": "Procesando...",
+      "continue": "Continuar",
+      "success": "¡Registro completado!",
+      "error": "Ocurrió un error durante la selección de rol.",
+      "traveler": {
+        "title": "Viajero",
+        "description": "Estoy planeando un viaje a Corea",
+        "feature1": "Chatear con chatbot de IA",
+        "feature2": "Chatear con guías",
+        "feature3": "Escribir reseñas de viaje"
+      },
+      "guide": {
+        "title": "Guía",
+        "description": "Quiero ayudar a turistas extranjeros",
+        "feature1": "Chatear con viajeros",
+        "feature2": "Proporcionar información turística",
+        "feature3": "Recibir valoraciones"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "Acerca de",
+      "description": "Una plataforma que conecta a extranjeros que planean viajar a Corea con guías locales."
+    },
+    "links": {
+      "title": "Enlaces rápidos",
+      "aiChat": "Chatbot IA",
+      "findGuide": "Buscar guía"
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "qortkdgus95@gmail.com"
+    },
+    "copyright": "© {year} Korea Travel Guide. Todos los derechos reservados."
+  }
+}

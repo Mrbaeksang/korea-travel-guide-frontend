@@ -1,0 +1,222 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "confirm": "確認",
+    "close": "閉じる",
+    "send": "送信",
+    "search": "検索",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "language": "言語"
+  },
+  "header": {
+    "title": "Korea Travel Guide",
+    "aiChat": "AI旅行ガイド",
+    "chat": "チャット",
+    "findGuide": "ガイドを探す",
+    "myProfile": "プロフィール",
+    "traveler": "旅行者",
+    "guide": "ガイド"
+  },
+  "home": {
+    "hero": {
+      "title": "どこに行こうか迷っていますか？",
+      "subtitle": "AIが今の天気を見てぴったりの旅行先を見つけます！🌤️",
+      "startButton": "始める",
+      "aiChatButton": "AIに聞く",
+      "findGuideButton": "ガイドを探す",
+      "myChatButton": "マイチャット",
+      "learnMore": "詳しく見る"
+    },
+    "officialData": {
+      "title": "信頼できる公式情報",
+      "subtitle": "韓国政府機関のリアルタイムデータを使用",
+      "kma": {
+        "name": "韓国気象庁",
+        "description": "リアルタイム天気情報"
+      },
+      "kto": {
+        "name": "韓国観光公社",
+        "description": "公式観光地情報"
+      }
+    },
+    "features": {
+      "title": "こんなことをお手伝いします",
+      "subtitle": "旅行の準備から現地情報まで、何でも聞いてください！",
+      "aiChatbot": {
+        "title": "今日の天気にぴったりの旅行先 🌤️",
+        "description": "雨が降っていますか？AIがすぐに室内スポットをおすすめします。天気を確認してぴったりの場所を見つけます！"
+      },
+      "localGuides": {
+        "title": "地元の人だけが知る本物のグルメ 🍜",
+        "description": "観光客向けのぼったくりNO！ガイドが直接教える本物の韓国を体験してください。"
+      },
+      "realTimeChat": {
+        "title": "1対1チャットですぐに接続 💬",
+        "description": "気になることがあればガイドにすぐに聞いてください。現地から直接お答えします！"
+      }
+    },
+    "cta": {
+      "title": "今すぐ聞いてみよう！💬",
+      "subtitle": "Googleアカウントで3秒で始めて、AIがすぐに答えます",
+      "button": "Googleで始める"
+    }
+  },
+  "aiChat": {
+    "title": "AI旅行ガイド",
+    "newSession": "+ 新しい会話",
+    "creating": "会話を作成中...",
+    "noSessions": "まだ会話がありません\n新しい会話を始めましょう！💬",
+    "selectSession": "会話を選択してください",
+    "selectSessionDesc": "左から会話を選択するか、新しく始めてください",
+    "inputPlaceholder": "何でも聞いてください...",
+    "startConversation": "何でも聞いてください！😊",
+    "deleteConfirm": "この会話を削除しますか？",
+    "connected": "接続済み",
+    "connecting": "接続中...",
+    "onboarding": {
+      "title": "こんにちは！👋",
+      "subtitle": "韓国旅行をサポートするAIガイドです。\nリアルタイムの天気と観光情報でぴったりの場所を見つけます！",
+      "tryAsking": "こんな質問はいかがですか？",
+      "sampleQuestions": {
+        "weather": "今週末のソウルの天気は？",
+        "restaurant": "海雲台ビーチ近くのレストランを教えて",
+        "activity": "11月の済州島で何をするのがいい？"
+      },
+      "startButton": "始める"
+    },
+    "editTitle": "タイトル編集",
+    "deleteSession": "セッション削除"
+  },
+  "guides": {
+    "title": "ガイドを探す",
+    "subtitle": "韓国旅行をサポートする現地ガイドを見つけましょう",
+    "searchPlaceholder": "ガイド名、地域、紹介文で検索...",
+    "startChat": "チャット開始",
+    "creating": "チャットルーム作成中...",
+    "noResults": "検索結果がありません。",
+    "noGuides": "登録されたガイドがいません。",
+    "loginRequired": "ログインが必要です。",
+    "travelerOnly": "旅行者のみガイドとチャットを開始できます。",
+    "chatCreated": "チャットルームが作成されました。",
+    "chatCreationFailed": "チャットルーム作成に失敗しました。もう一度お試しください。",
+    "accessDenied": {
+      "title": "アクセス権限がありません",
+      "description": "このページは旅行者専用です。"
+    }
+  },
+  "profile": {
+    "title": "プロフィール",
+    "subtitle": "情報を確認・編集できます",
+    "nickname": "ニックネーム",
+    "profileImage": "プロフィール画像URL",
+    "profileImageDesc": "外部画像URLのみ使用可能です",
+    "location": "活動地域",
+    "locationPlaceholder": "SEOUL、BUSAN、JEJUなど",
+    "description": "紹介",
+    "descriptionPlaceholder": "ガイド紹介を入力してください",
+    "editProfile": "情報編集",
+    "saving": "保存中...",
+    "updated": "プロフィールが更新されました。",
+    "updateFailed": "プロフィール更新に失敗しました。",
+    "myRatings": "マイ評価",
+    "averageRating": "平均評価",
+    "totalRatings": "総評価数",
+    "receivedRatings": "受け取った評価",
+    "noRatings": "まだ評価を受け取っていません。",
+    "deleteAccount": {
+      "title": "アカウント削除",
+      "warning": "アカウント削除時、すべてのデータが削除され復元できません。",
+      "button": "アカウント削除",
+      "confirmTitle": "本当に削除しますか？",
+      "processing": "処理中...",
+      "success": "アカウント削除が完了しました。",
+      "failed": "アカウント削除に失敗しました。"
+    },
+    "noName": "名前なし",
+    "roleGuide": "ガイド",
+    "roleGuest": "旅行者"
+  },
+  "login": {
+    "title": "Korea Travel Guide",
+    "subtitle": "AIチャットボットと現地ガイドと出会おう",
+    "googleButton": "Googleでログイン",
+    "terms": "ログインすると、サービス規約とプライバシーポリシーに同意したことになります。"
+  },
+  "chat": {
+    "title": "チャット",
+    "notFound": "チャットルームが見つかりません",
+    "backToList": "チャットリストに戻る",
+    "inputPlaceholder": "メッセージを入力...",
+    "startConversation": "メッセージを入力して会話を始めましょう",
+    "connected": "接続済み",
+    "connecting": "接続中...",
+    "notConnected": "チャットサーバーに接続されていません。",
+    "sendError": "メッセージ送信に失敗しました。",
+    "connectionError": "チャット接続中にエラーが発生しました。",
+    "listTitle": "チャット一覧",
+    "listDescription": "旅行者との会話を確認",
+    "noRooms": "チャットルームがありません",
+    "noRoomsDescription": "旅行者がチャットを開始するとここに表示されます",
+    "deleteConfirm": "「{title}」チャットルームを削除しますか？",
+    "deleteButton": "チャットルーム削除",
+    "lastUpdate": "最終更新",
+    "yesterday": "昨日",
+    "daysAgo": "{days}日前",
+    "loadingMore": "読み込み中...",
+    "loadMore": "さらに読み込む"
+  },
+  "auth": {
+    "callback": {
+      "processing": "ログイン処理中...",
+      "error": "ログイン処理中にエラーが発生しました。refreshTokenクッキーが設定されていないか、有効期限が切れています。",
+      "redirecting": "ログインページに移動します..."
+    },
+    "role": {
+      "title": "役割選択",
+      "subtitle": "サービスを利用するための役割を選択してください",
+      "invalidAccess": "無効なアクセスです。",
+      "processing": "処理中...",
+      "continue": "続ける",
+      "success": "登録が完了しました！",
+      "error": "役割選択中にエラーが発生しました。",
+      "traveler": {
+        "title": "旅行者",
+        "description": "韓国旅行を計画しています",
+        "feature1": "AIチャットボットと会話",
+        "feature2": "ガイドとチャット",
+        "feature3": "旅行レビューを書く"
+      },
+      "guide": {
+        "title": "ガイド",
+        "description": "外国人観光客を助けたい",
+        "feature1": "ゲストとチャット",
+        "feature2": "観光情報を提供",
+        "feature3": "評価を受ける"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "紹介",
+      "description": "韓国旅行を計画する外国人と現地ガイドを繋ぐプラットフォームです。"
+    },
+    "links": {
+      "title": "リンク",
+      "aiChat": "AIチャットボット",
+      "findGuide": "ガイドを探す"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "email": "qortkdgus95@gmail.com"
+    },
+    "copyright": "© {year} Korea Travel Guide. All rights reserved."
+  }
+}

@@ -5,14 +5,6 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 const nextConfig: NextConfig = {
   /* config options here */
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'https://korea-travel-guide-backend-production.up.railway.app/:path*',
-      },
-    ];
-  },
 };
 
 export default withNextIntl(nextConfig);

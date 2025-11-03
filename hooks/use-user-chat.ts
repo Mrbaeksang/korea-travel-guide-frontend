@@ -102,7 +102,7 @@ export function useChatMessages(roomId: number | null, after?: number) {
       return data.data
     },
     enabled: !!roomId,
-    refetchInterval: 3000, // Poll every 3 seconds for new messages
+    // Removed refetchInterval - WebSocket handles real-time updates
   })
 }
 

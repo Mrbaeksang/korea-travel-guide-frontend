@@ -119,7 +119,7 @@ const form = useForm({
 ### API Client (Axios)
 - All API calls via `lib/api.ts`
 - JWT auto-refresh via interceptors
-- Base URL: `http://localhost:8080` (dev) / `https://api.team11.giwon11292.com` (prod)
+- Base URL: `http://localhost:8080` (dev) / `https://korea-travel-guide-backend-production.up.railway.app` (prod)
 
 ### WebSocket (STOMP)
 - Use `@stomp/stompjs` + `sockjs-client`
@@ -261,7 +261,7 @@ export default function Page() {
 
 ### Backend API Base URL
 - Dev: `http://localhost:8080`
-- Prod: `https://api.team11.giwon11292.com`
+- Prod: `https://korea-travel-guide-backend-production.up.railway.app`
 
 ### API Documentation
 See `FRONTEND_API.md` for complete endpoint reference.

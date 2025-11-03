@@ -74,7 +74,7 @@ export default function ChatRoomPage() {
         setIsConnected(true)
 
         // Subscribe to room topic - FRONTEND_API.md Section 5.2
-        client.subscribe(`/topic/chat/${roomId}`, (message) => {
+        client.subscribe(`/topic/userchat/${roomId}`, (message) => {
           const newMessage: ChatMessage = JSON.parse(message.body)
           console.log('[WebSocket] Received message:', newMessage)
 

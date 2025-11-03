@@ -53,10 +53,17 @@ export default function ChatRoomPage() {
 
   // WebSocket connection setup
   useEffect(() => {
-    if (!roomId || !user) return
+    console.log('[DEBUG] WebSocket useEffect triggered', { roomId, user, hasToken: !!getAccessToken() })
+
+    if (!roomId || !user) {
+      console.warn('[DEBUG] WebSocket connection blocked:', { roomId, user })
+      return
+    }
 
     const WS_URL = process.env.NEXT_PUBLIC_WS_URL || 'http://localhost:8080/ws/userchat'
     const token = getAccessToken()
+
+    console.log('[DEBUG] Connecting to WebSocket:', WS_URL, 'with token:', !!token)
 
     const client = new Client({
       webSocketFactory: () => new SockJS(WS_URL),

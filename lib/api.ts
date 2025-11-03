@@ -53,9 +53,13 @@ const refreshAuthLogic = async (failedRequest: AxiosError) => {
 
     return Promise.resolve()
   } catch (error) {
+    // Clear both in-memory and persisted auth state
     setAccessToken(null)
 
+    // Import dynamically to avoid circular dependency
     if (typeof window !== 'undefined') {
+      const { useAuthStore } = await import('@/stores/use-auth-store')
+      useAuthStore.getState().clearAuth()
       window.location.href = '/login'
     }
 

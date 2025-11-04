@@ -15,6 +15,7 @@ export function ChatArea({ sessionId, onSampleQuestionClick }: ChatAreaProps) {
   const sendMessage = useSendAiChatMessage(sessionId)
   const [input, setInput] = useState('')
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const messagesContainerRef = useRef<HTMLDivElement>(null)
   const prevMessageCountRef = useRef(0)
   const t = useTranslations('aiChat')
   const tc = useTranslations('common')
@@ -23,7 +24,10 @@ export function ChatArea({ sessionId, onSampleQuestionClick }: ChatAreaProps) {
   useEffect(() => {
     // Only scroll if messages were added (not on initial load or session change)
     if (messages.length > prevMessageCountRef.current && prevMessageCountRef.current > 0) {
-      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+      // Scroll the messages container, not the entire page
+      if (messagesContainerRef.current) {
+        messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight
+      }
     }
     prevMessageCountRef.current = messages.length
   }, [messages])
@@ -84,7 +88,7 @@ export function ChatArea({ sessionId, onSampleQuestionClick }: ChatAreaProps) {
   return (
     <div className="flex flex-1 flex-col bg-gray-50">
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto p-4">
+      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto p-4">
         <div className="mx-auto max-w-3xl space-y-4">
           {messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-12">

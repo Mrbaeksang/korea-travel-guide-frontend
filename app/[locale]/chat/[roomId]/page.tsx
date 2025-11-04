@@ -28,13 +28,17 @@ export default function ChatRoomPage() {
   const [liveMessages, setLiveMessages] = useState<ChatMessage[]>([])
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const messagesContainerRef = useRef<HTMLDivElement>(null)
   const prevMessageCountRef = useRef(0)
 
   // Auto-scroll to bottom ONLY when new messages are added
   useEffect(() => {
     // Only scroll if messages were added (not on initial load or room change)
     if (liveMessages.length > prevMessageCountRef.current && prevMessageCountRef.current > 0) {
-      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+      // Scroll the messages container, not the entire page
+      if (messagesContainerRef.current) {
+        messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight
+      }
     }
     prevMessageCountRef.current = liveMessages.length
   }, [liveMessages])
@@ -208,7 +212,7 @@ export default function ChatRoomPage() {
       </div>
 
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto bg-gray-50 px-6 py-4">
+      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto bg-gray-50 px-6 py-4">
         <div className="space-y-4">
           {liveMessages.length === 0 ? (
             <div className="flex h-full items-center justify-center">

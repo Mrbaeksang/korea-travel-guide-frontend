@@ -47,8 +47,18 @@ const refreshAuthLogic = async (failedRequest: AxiosError) => {
     const newAccessToken = response.data.data.accessToken
     setAccessToken(newAccessToken)
 
-    if (failedRequest.response) {
-      failedRequest.response.config.headers.Authorization = `Bearer ${newAccessToken}`
+    // Update Zustand store to persist new token in localStorage
+    if (typeof window !== 'undefined') {
+      const { useAuthStore } = await import('@/stores/use-auth-store')
+      const currentState = useAuthStore.getState()
+      if (currentState.user) {
+        useAuthStore.getState().setAuth(newAccessToken, currentState.user)
+      }
+    }
+
+    // Fix: Use failedRequest.config instead of failedRequest.response.config
+    if (failedRequest.config && failedRequest.config.headers) {
+      failedRequest.config.headers.Authorization = `Bearer ${newAccessToken}`
     }
 
     return Promise.resolve()

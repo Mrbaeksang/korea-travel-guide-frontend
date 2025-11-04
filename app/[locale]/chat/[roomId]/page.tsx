@@ -80,8 +80,8 @@ export default function ChatRoomPage() {
         console.log('[WebSocket] Connected to room:', roomId)
         setIsConnected(true)
 
-        // Subscribe to room topic - FRONTEND_API.md Section 5.2
-        client.subscribe(`/topic/userchat/${roomId}`, (message) => {
+        // Subscribe to room topic - RabbitMQ AMQP requires dot separator (not slash)
+        client.subscribe(`/topic/userchat.${roomId}`, (message) => {
           const newMessage: ChatMessage = JSON.parse(message.body)
           console.log('[WebSocket] Received message:', newMessage)
 

@@ -82,10 +82,10 @@ export default function ChatRoomPage() {
 
         // Subscribe to room topic - RabbitMQ AMQP requires dot separator (not slash)
         client.subscribe(`/topic/userchat.${roomId}`, (message) => {
-          const newMessage: ChatMessage = JSON.parse(message.body)
-          console.log('[WebSocket] Received message:', newMessage)
+          const response = JSON.parse(message.body) as { msg: string; data: ChatMessage }
+          console.log('[WebSocket] Received message:', response.data)
 
-          setLiveMessages((prev) => [...prev, newMessage])
+          setLiveMessages((prev) => [...prev, response.data])
         })
       },
       onStompError: (frame) => {

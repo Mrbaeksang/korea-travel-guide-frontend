@@ -7,6 +7,8 @@ import { useTranslations } from 'next-intl'
 import api from '@/lib/api'
 import { useAuthStore } from '@/stores/use-auth-store'
 import type { ApiResponse, User } from '@/types/api'
+import { RegionSelector } from '@/components/region-selector'
+import type { RegionValue } from '@/lib/regions'
 
 interface GuideRating {
   id: number
@@ -31,7 +33,7 @@ export default function ProfilePage() {
   // Form states
   const [nickname, setNickname] = useState('')
   const [profileImageUrl, setProfileImageUrl] = useState('')
-  const [location, setLocation] = useState('')
+  const [location, setLocation] = useState<RegionValue | null>(null)
   const [description, setDescription] = useState('')
 
   // Guide ratings state
@@ -64,7 +66,7 @@ export default function ProfilePage() {
     try {
       const response = await api.get<ApiResponse<User>>(`/api/guides/${user!.id}`)
       const guideData = response.data.data
-      setLocation(guideData.location || '')
+      setLocation((guideData.location as RegionValue) || null)
       setDescription(guideData.description || '')
     } catch (error) {
       console.error('Failed to load guide data:', error)
@@ -236,14 +238,19 @@ export default function ProfilePage() {
               {/* Location */}
               <div>
                 <label className="block text-sm font-medium text-gray-700">{t('location')}</label>
-                <input
-                  type="text"
-                  value={location}
-                  onChange={(e) => setLocation(e.target.value)}
-                  disabled={!isEditing}
-                  placeholder={t('locationPlaceholder')}
-                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500 disabled:bg-gray-100 disabled:text-gray-500"
-                />
+                {isEditing ? (
+                  <div className="mt-1">
+                    <RegionSelector
+                      value={location}
+                      onChange={setLocation}
+                      disabled={!isEditing}
+                    />
+                  </div>
+                ) : (
+                  <div className="mt-1 block w-full rounded-md border border-gray-300 bg-gray-100 px-3 py-2 text-gray-500">
+                    {location || t('locationPlaceholder')}
+                  </div>
+                )}
               </div>
 
               {/* Description */}
